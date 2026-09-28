@@ -8,7 +8,7 @@ class Calculation(ABC):
 
     @abstractmethod
     def get_result(self):
-        pass
+        pass # pragma: no cover
 
 
 class Add(Calculation):
